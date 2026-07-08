@@ -11,6 +11,7 @@ on:
 jobs:
   deploy-to-caprover:
     runs-on: ubuntu-latest
+    permissions: write-all
 
     steps:
     - name: Check out repository
